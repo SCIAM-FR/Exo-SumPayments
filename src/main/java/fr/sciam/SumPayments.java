@@ -10,7 +10,7 @@ public class SumPayments {
         throw new UnsupportedOperationException("not implemented yet");
     }
 
-    private record Payment(BigDecimal amount, boolean isFee) {
+    public record Payment(BigDecimal amount, boolean isFee) {
     }
 
 }
